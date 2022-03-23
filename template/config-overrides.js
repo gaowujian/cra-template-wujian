@@ -5,7 +5,7 @@ module.exports = override(
   fixBabelImports("import", {
     //配置按需加载
     libraryName: "antd",
-    libraryDirectory: "es",
+    libraryDirectory: "lib",
     style: true,
   }),
   addWebpackAlias({
